@@ -1,0 +1,66 @@
+/* Centering Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Game Container */
+.table {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Game Section */
+.game {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;
+    flex-wrap: nowrap; /* Prevents wrapping */
+    gap: 30px; /* Space between icons */
+    margin-top: 20px;
+}
+
+/* Individual Icon Box */
+.icon-box {
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+}
+
+/* Image Styling */
+.icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Label for Icons */
+.icon-label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    width: 100px; /* Ensures label width matches icon */
+    text-align: center;
+}
+
+/* Result Text */
+#result {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 15px;
+    font-weight: bold;
+}
